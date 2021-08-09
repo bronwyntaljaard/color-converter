@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Color Converter</title>
+</head>
+<body>
+    <h1>COLOR CONVERTER</h1>
+    <h2>Convert your color value from<br>
+    RGB to HEX<br>
+    or<br>
+    HEX to RGB
+    </h2>
+    <hr>
+
+    <h3>Your RGB color value: (Example: (255, 205, 1))</h3>
+    <input type="text" id="inputRedColorValue"
+    size="10" placeholder="Red" maxlength="3">
+    <input type="text" id="inputGreenColorValue"
+    size="10" placeholder="Green" maxlength="3">
+    <input type="text" id="inputBlueColorValue"
+    size="10" placeholder="Blue" maxlength="3">
+    <button id="submitRGBColorValue">Get HEX color value </button>
+    <h3 id="convertedRGBValue"></h3>
+    <hr>
+
+    <h3>Your HEX color value: (Example: #ffcd01)</h3>
+    <input type="text" id="inputHEXColorValue"
+    size="10" placeholder="#FFFFFF">
+    <button  id="submitHEXColorValue">Get RGB color value</button>
+    <h3 id="convertedHEXValue"></h3>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
